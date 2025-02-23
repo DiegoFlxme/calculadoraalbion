@@ -7,11 +7,7 @@ function toggleDropdown() {
 }
 
 // Fecha o dropdown se clicar fora dele
-window.onclick = function (event) {
-    if (!event.target.closest(".dropdown")) {
-        document.getElementById("dropdown-menu").style.display = "none";
-    }
-};
+
 
 // Função para selecionar o tier da arma, atualizar o cálculo e trocar o texto do botão
 function calcular(tier) {
