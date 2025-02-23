@@ -20,7 +20,7 @@ body {
   margin: auto;
 }
 .container h2 {
-  padding: 100px;
+  margin-bottom: 15px;
 }
 
 /* Layout principal */
