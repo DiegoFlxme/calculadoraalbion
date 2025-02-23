@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Armas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora de passar armas .4 pro nome</h2>
+
+    <div class="calculadora">
+      <div class="inputs">
+        <div class="dropdown" onclick="toggleDropdown()">
+          <button class="dropbtn">Selecione o Tier da arma <span class="arrow">▼</span></button>
+          <div id="dropdown-menu" class="dropdown-content">
+            <a href="#" onclick="calcular(1)">4.4</a>
+            <a href="#" onclick="calcular(2)">5.4</a>
+            <a href="#" onclick="calcular(3)">6.4</a>
+            <a href="#" onclick="calcular(4)">7.4</a>
+            <a href="#" onclick="calcular(5)">8.4</a>
+          </div>
+        </div>
+          <div class="tensao-container">
+            <input type="text" id="tensao" placeholder="Digite a tensão" oninput="validarTensao(this)"  onblur="atualizarCalculo()">
+          </div>
+      </div>
+      <div class="resultado">
+        <h3>O valor aproximado é de</h3>
+        <p id="resultado"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
