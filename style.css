@@ -20,7 +20,7 @@ body {
   margin: auto;
 }
 .container h2 {
-  margin-bottom: 15px;
+  margin-bottom: 30px; /* Ajuste para a distância desejada */
 }
 
 /* Layout principal */
