@@ -43,7 +43,7 @@ function atualizarCalculo() {
     let resultado = 0;
 
     // Tabela de multiplicadores para cada tier
-    const valores = [21590, 52732, 124400, 334000, 1000000];
+    const valores = [21590, 52732, 129572, 348.337, 1.041.869];
 
     if (tierSelecionado >= 1 && tierSelecionado <= 5) {
         resultado = valores[tierSelecionado - 1] * valorTensao;
